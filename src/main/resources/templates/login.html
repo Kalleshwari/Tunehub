@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+
+</head>
+<body>
+	<h1>User LOGIN:</h1>
+	<img src="https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg" height="140px" width="140px">
+	<form action="validate" method="post">
+		<tr>
+			<td><label>Email :</label></td>
+			<td><input type="email" name="email" /></td>
+		</tr>
+		<br>
+		<tr>
+			<td><label>Password :</label></td>
+			<td><input type="password" name="password" /></td>
+		</tr>
+		<br> 
+		<br>
+		<input type="submit" value="LOGIN" />
+	</form>
+</body>
+</html>

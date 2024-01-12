@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+	<h1>User Registration:</h1>
+	<img src="https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg" height="140px" width="140px">
+	<form action="register" method="post">
+		<table>
+			<label>User name :</label>
+			<input type="text" name="username" />
+			<br>
+			<label>Email :</label>
+			<input type="email" name="email" />
+			<br>
+			<label>Password :</label>
+			<input type="password" name="password" />
+			<br>
+			<label>Gender :</label> 
+			M<input type="radio" name="gender" value="male" />
+			 F<input type="radio" name="gender" value="female" /> 
+			 O<input type="radio" name="gender" value="other" />
+			<br>
+			<label>Role :</label>
+			 Admin<input type="radio" name="role" value="admin" /> 
+			 Customer<input type="radio" name="role" value="customer" />
+			<br>
+			<label>Address :</label>
+			<input type="text" name="address" />
+			<br>
+			<br>
+			<input type="submit">
+
+		</table>
+	</form>
+
+</body>
+</html>
